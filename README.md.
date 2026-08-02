@@ -1,0 +1,77 @@
+Student Management System
+
+Overview
+
+The Student Management System is a console-based Java application developed to manage student records efficiently. It allows users to perform essential student management operations through a simple menu-driven interface. The project is built using Java, JDBC, and MySQL, providing hands-on experience with database connectivity and CRUD operations.
+
+Features
+
+- Add a new student
+- View all student records
+- Search for a student by ID
+- Update student details
+- Delete student records
+- Input validation for user entries
+- Menu-driven console interface
+
+Technologies Used
+
+- Java
+- JDBC (Java Database Connectivity)
+- MySQL
+- Eclipse IDE
+- Git & GitHub
+
+Project Structure
+
+- "Main.java" – Application entry point
+- "Student.java" – Student model class
+- "StudentDAO.java" – Database operations (CRUD)
+- "DBConnection.java" – MySQL database connection
+- Other supporting classes as required
+
+Database
+
+This project uses MySQL to store student information.
+
+Example fields:
+Student ID
+Name
+Department
+Age
+Email
+
+How to Run
+
+-Clone this repository.
+-Open the project in Eclipse or your preferred Java IDE.
+-Create the required MySQL database and table.
+-Update the database URL, username, and password in the database connection file.
+-Run Main.java.
+-Use the console menu to manage student records.
+
+Learning Outcomes
+
+This project helped me gain practical experience in:
+
+-Core Java programming
+-Object-Oriented Programming (OOP)
+-JDBC
+-MySQL database operations
+-CRUD implementation
+-Input validation
+-Git and GitHub version control
+
+Future Improvements
+
+-User authentication
+-Search by multiple fields
+-Export student records
+-Graphical User Interface (GUI)
+-Spring Boot REST API version
+
+Author
+
+Pavithra V
+Final Year B.E. Computer Science and Engineering Student
+Aspiring Java Developer
